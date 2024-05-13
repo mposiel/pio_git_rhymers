@@ -2,8 +2,8 @@ package edu.kis.vh.nursery.list;
 
 public class IntLinkedList {
 
-    Node last;
-    int i;
+    private Node last;
+    private int i;
 
     public void push(int i) {
         if (last == null)
@@ -19,7 +19,7 @@ public class IntLinkedList {
         return last == null;
     }
 
-    public boolean isFull() {
+    private boolean isFull() {
         return false;
     }
 
