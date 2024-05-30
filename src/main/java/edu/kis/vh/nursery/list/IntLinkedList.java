@@ -39,7 +39,7 @@ public class IntLinkedList {
         }
     }
 
-    private boolean isEmpty() {
+    public boolean isEmpty() {
         return lastNode == null;
     }
 
